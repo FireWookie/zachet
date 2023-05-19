@@ -1081,7 +1081,7 @@ line-height: 1.3;
 }
 
 
-@media (min-width:300px) and (max-width:599px){
+@media (min-width:300px) and (max-width:780px){
   .slider{
     width: 75%;
     margin: 0 auto;
@@ -1090,6 +1090,14 @@ line-height: 1.3;
   .slider img{
     width: 100%;
     margin: 0 auto;
+  }
+  .filter-controls {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .header__phone {
+    font-size: 22px;
   }
 }
 
